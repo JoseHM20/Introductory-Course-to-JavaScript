@@ -1,0 +1,19 @@
+/* SELECTORES
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 */
+
+body {background-color: beige;}
+
+h1{
+    color:red;
+    font-size:50px;
+}
+
+/*Cambiar solamente el color de los enlaces que esten dentro de un parrafo*/
+p a{
+    color:blue;
+}

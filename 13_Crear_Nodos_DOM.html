@@ -1,0 +1,55 @@
+<! CREANDO NODOS EN DOM
+
+UNIVERSIDAD AUTONOMA DE NUEVO LEON
+FACULTAD DE CIENCIAS FISICO MATEMATICAS
+SEMESTRE AGOSTO - DICIEMBRE 2022 
+
+JOSE LUIS HERNANDEZ MEZA - 1950471 >
+
+<!DOCTYPE html>
+<html lang=”es”>
+    <head>
+        <div>
+            <title>MI PRIMER PAGINA WEB</title>
+            <meta charset="utf-8"/>
+            <meta name="Author" content="Jose Luis Hernandez Meza"/>
+            <link rel="stylesheet" href="/css/comun.css"/>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1 id = "Titulo_Principal">TITULO PRINCIPAL</h1>
+        </header>
+        <div id = "Nuevo_Tema"></div>
+        <article id = "Articulo_1">
+            <h2>PRIMER TITULO</h2>
+            <p>1- Este es el primer titutlo de nuestro sitio web en desarrollo</p>
+        </article>
+        <article id = "Articulo_2">
+            <h2>SEGUNDO TITULO</h2>
+            <p>2- Este es el segundo titutlo de nuestro sitio web en desarrollo</p>
+        </article>
+        <article id = "Articulo_3">
+            <h2>TERCER TITULO</h2>
+            <p>2- Este es el tercer titutlo de nuestro sitio web en desarrollo</p>
+        </article>
+
+        <script>
+            // 1 - Crear un elemento
+            var Elemento = document.createElement("h1");
+
+            // 2 - Crear un nodo de texto
+            var Contenido = document.createTextNode("Este es nuestro nuevo titular");
+
+            // 3 - Añadir el nodo de texto al elemento
+            Elemento.appendChild(Contenido);
+
+            // 4 - Agregar atributos al elemento
+            Elemento.setAttribute("align", "center");
+
+            // 5 - Agregar el elemento al documento
+            document.getElementById("Nuevo_Tema").appendChild(Elemento);
+            // document.getElementById("Articulo_3").appendChild(Elemento);
+        </script>
+    </body>
+</html>
